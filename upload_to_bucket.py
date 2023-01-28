@@ -1,7 +1,6 @@
 
 from google.cloud import storage
-# import os
-# os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="C:/Users/siva/Downloads/My First Project-e2d95d910f92.json" 
+
 
 def upload_blob_from_stream(bucket_name, file_name, destination_blob_name):
     """Uploads bytes from a stream or other file-like object to a blob."""
